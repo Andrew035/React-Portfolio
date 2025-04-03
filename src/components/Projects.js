@@ -4,8 +4,16 @@ import project3Image from "./img/project-3.png";
 import arrowIcon from "./img/arrow.png";
 
 function Projects() {
-  const openGithub = () => {
-    window.open("https://github.com/Andrew035");
+  const openFormValidator = () => {
+    window.open("https://github.com/Andrew035/form-validator");
+  };
+
+  const openFitnessTracker = () => {
+    window.open("https://github.com/Andrew035/Fitness-Tracker-App");
+  };
+
+  const openLoginApp = () => {
+    window.open("https://github.com/Andrew035/login-app-with-react");
   };
 
   return (
@@ -18,15 +26,17 @@ function Projects() {
             <div className="article-container">
               <img
                 src={project1Image}
-                alt="Project 1"
+                alt="Form Validator"
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">
+              Form Validator
+            </h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={openGithub}
+                onClick={openFormValidator}
               >
                 Github
               </button>
@@ -36,15 +46,17 @@ function Projects() {
             <div className="article-container">
               <img
                 src={project2Image}
-                alt="Project 2"
+                alt="Fitness Tracker"
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">Project Two</h2>
+            <h2 className="experience-sub-title project-title">
+              Fitness Tracker
+            </h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={openGithub}
+                onClick={openFitnessTracker}
               >
                 Github
               </button>
@@ -54,17 +66,15 @@ function Projects() {
             <div className="article-container">
               <img
                 src={project3Image}
-                alt="Project 3"
+                alt="Login App"
                 className="project-img"
               />
             </div>
-            <h2 className="experience-sub-title project-title">
-              Project Three
-            </h2>
+            <h2 className="experience-sub-title project-title">Login App</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={openGithub}
+                onClick={openLoginApp}
               >
                 Github
               </button>

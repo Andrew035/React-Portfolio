@@ -465,8 +465,16 @@ footer p {
   section {
     margin: 0 5%;
   }
-  .section__pic-container {
+
+  #profile .section__pic-container {
+    height: 275px;
     width: 275px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  #about .section__pic-container {
+    width: 200px;
     height: 275px;
     margin: 0 auto 2rem;
   }

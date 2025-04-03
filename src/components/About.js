@@ -15,7 +15,11 @@ function About() {
         <div className="about-details-container">
           <div className="about-containers">
             <div className="details-container">
-              <img src={experienceIcon} alt="Experience Icon" class="icon" />
+              <img
+                src={experienceIcon}
+                alt="Experience Icon"
+                className="icon"
+              />
               <h3>Experience</h3>
               <p>
                 Web Development <br />
