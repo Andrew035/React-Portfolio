@@ -16,24 +16,16 @@ function HamburgerNav() {
         </div>
         <div className="menu-links">
           <li>
-            <a href="./About" onClick={toggleMenu}>
-              About
-            </a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="./Experience" onClick={toggleMenu}>
-              Experience
-            </a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="./Projects" onClick={toggleMenu}>
-              Projects
-            </a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="./Contact" onClick={toggleMenu}>
-              Contact
-            </a>
+            <a href="#contact">Contact</a>
           </li>
         </div>
       </div>
