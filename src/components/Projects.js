@@ -84,7 +84,7 @@ function Projects() {
       </div>
       <img
         src={arrowIcon}
-        alt="Arrow Icon"
+        alt="Arrow"
         className="icon arrow"
         onClick={() => {
           const contactSection = document.getElementById("contact");

@@ -12,143 +12,91 @@ function Experience() {
             <h2 className="experience-sub-title">Web/OOP Development</h2>
             <div className="article-container">
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>HTML</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>CSS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>JavaScript</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>React</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>Python</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>C++</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>C</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>NextJS</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>NodeJS</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>TypeScript</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>AWS</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>Docker</h3>
                   <p>Basic</p>
                 </div>
               </article>
               <article>
-                <img
-                  src={checkmarkIcon}
-                  alt="Experience Icon"
-                  className="icon"
-                />
+                <img src={checkmarkIcon} alt="Experience" className="icon" />
                 <div>
                   <h3>Git</h3>
                   <p>Intermediate</p>
@@ -160,7 +108,7 @@ function Experience() {
       </div>
       <img
         src={arrowIcon}
-        alt="Arrow Icon"
+        alt="Arrow"
         className="icon arrow"
         onClick={() => {
           const projectSection = document.getElementById("projects");

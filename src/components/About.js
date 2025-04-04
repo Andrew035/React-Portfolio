@@ -10,16 +10,12 @@ function About() {
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
-          <img src={aboutPic} alt="Profile Picture" className="about-pic" />
+          <img src={aboutPic} alt="Profile" className="about-pic" />
         </div>
         <div className="about-details-container">
           <div className="about-containers">
             <div className="details-container">
-              <img
-                src={experienceIcon}
-                alt="Experience Icon"
-                className="icon"
-              />
+              <img src={experienceIcon} alt="Experience" className="icon" />
               <h3>Experience</h3>
               <p>
                 Web Development <br />
@@ -44,7 +40,7 @@ function About() {
       </div>
       <img
         src={arrowIcon}
-        alt="Arrow Icon"
+        alt="Arrow"
         className="icon arrow"
         onClick={() => {
           const experienceSection = document.getElementById("experience");

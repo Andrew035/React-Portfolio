@@ -10,7 +10,7 @@ function Contact() {
         <div className="contact-info-container">
           <img
             src={emailIcon}
-            alt="Email Icon"
+            alt="Email"
             className="icon contact-icon email-icon"
           />
           <p>
@@ -20,7 +20,7 @@ function Contact() {
         <div className="contact-info-container">
           <img
             src={linkedInIcon}
-            alt="LinkedIn Icon"
+            alt="LinkedIn"
             className="icon contact-icon"
           />
           <p>

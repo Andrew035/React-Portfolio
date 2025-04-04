@@ -26,7 +26,11 @@ function Profile() {
   return (
     <section id="profile">
       <div className="section__pic-container">
-        <img src={profileImage} alt="Andrew Velasquez profile picture" />
+        <img
+          src={profileImage}
+          alt="Andrew Velasquez profile"
+          className="profile-pic"
+        />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
